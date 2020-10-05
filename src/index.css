@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,7 +11,55 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+header {
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Form {
+  background-color:grey;
+  padding: 5px;
+}
+.Filter {
+  background-color: lightgrey;
+  padding: 5px;
+}
+.Display ul {
+  padding: 0;
+}
+
+.Display li {
+  list-style-type: none;
+
+}
+
+.Book {
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+}
+
+.Book div.image {
+  display:flex;
+  align-items: center;
+}
+
+.Book>div{
+  display: flex;
+}
+
+.Book .container>*{
+  margin: 10px;
+}
+
+.Book .description {
+  text-align: center;
+  flex-grow:1;
+}
+
